@@ -100,6 +100,11 @@ form {
     border: none;
 }
 
+.error-div {
+    display: none;
+    color: red;
+}
+
 .bottom button {
     font-size: clamp(1rem, 1.25rem, 1.5rem);
     border-radius: 5px;
