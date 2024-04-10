@@ -12,7 +12,90 @@
 </head>
 
 <body>
+    <main>
+        <section class="left">
+            <h1>STRANGE WORLD</h1>
+        </section>
 
+        <section class="right">
+            <div class="welcome-message">
+                <p class="message">
+                    Welcome, stranger, to a place where the boundaries of existence blur and the absurdities of life are
+                    embraced. Here, amidst the chaos and uncertainty, you'll find solace in connecting with fellow
+                    travelers
+                    on
+                    this journey of introspection.
+                </p>
+
+                <p class="message">
+                    Join us as we navigate the complexities of existence, exploring the depths of our minds and
+                    questioning
+                    the
+                    meaning behind every step we take. In this strange world, every encounter is an opportunity to delve
+                    deeper
+                    into the mysteries of life.
+                </p>
+
+                <p class="message">
+                    Embrace the unknown, for it is within the strangeness that we find ourselves. Sign up now and become
+                    part of
+                    a community unbound by convention, where authenticity reigns supreme.
+                </p>
+            </div>
+
+            <form action="#">
+                <div class="top">
+                    <h2>Start Your Journey Here</h2>
+                </div>
+
+                <div class="middle">
+                    <div>
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" name="first-name" id="first-name" maxlength="50" required>
+                    </div>
+
+                    <div>
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" name="last-name" id="last-name" maxlength="50" required>
+                    </div>
+
+                    <div>
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+
+                    <div>
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input type="tel" name="phone-number" id="phone-number" pattern="\d{3}-\d{3}-\d{4}"
+                            title="Please enter a phone number in the format xxx-xxx-xxxx" required>
+                    </div>
+
+                    <div>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password"
+                            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*\W).{8,}"
+                            title="Password must contain at least one number, one uppercase letter, one lowercase letter, one special character, and be at least 8 characters long"
+                            required>
+                    </div>
+
+                    <div>
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirm-password" id="confirm-password" required>
+                    </div>
+                </div>
+
+                <div class="bottom">
+                    <button type="submit">Sign up</button>
+                </div>
+            </form>
+
+            <div class="login">
+                <p>
+                    Already have an account? <a href="#">Log in</a>
+                </p>
+            </div>
+        </section>
+    </main>
     <script src="script.js"></script>
 </body>
 
