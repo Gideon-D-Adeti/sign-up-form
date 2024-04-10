@@ -19,4 +19,4 @@ This project is a sign-up form for the Strange World platform. It allows users t
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
 
 ## Note
-This project was created as part of my web development journey on the Odin Project.
+This project was created as part of my web development journey on [The Odin Project](https://www.theodinproject.com/).
